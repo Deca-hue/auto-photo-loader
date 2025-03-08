@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinite Scroll Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gradient-to-b from-gray-100 to-gray-300 min-h-screen">
+    <div class="text-center py-6">
+        <h1 class="text-3xl font-bold text-gray-800 typing-text">Infinite Scroll Image Gallery</h1>
+        <select id="category-select" class="mt-4 p-2 border-2 border-gray-300 rounded-lg shadow-sm hover:border-blue-500">
+            <option value="nature">Nature</option>
+            <option value="tech">Tech</option>
+            <option value="animals">Animals</option>
+            <option value="architecture">Architecture</option>
+        </select>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6" id="gallery-container"></div>
+
+    <div class="text-center py-4" id="loading" style="display: none;">
+        <span class="text-lg font-medium text-gray-600">Loading more images...</span>
+    </div>
+
+    <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" class="fixed bottom-4 right-4 bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700">⬆️</button>
+
+    <div id="popup" class="popup">Image saved successfully!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
