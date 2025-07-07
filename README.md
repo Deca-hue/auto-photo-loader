@@ -3,7 +3,7 @@
 **Photo Auto Loader** is a fast, responsive image gallery that automatically loads and displays photos in real time as the user scrolls.  
 Built with **HTML**, **Tailwind CSS**, and **JavaScript**, it uses **lazy loading** and scroll-based triggers to deliver a smooth user experience, even with large image datasets.
 
-[🔗 Live Demo](https://your-username.github.io/photo-auto-loader) &nbsp; | &nbsp; [📂 View Source](https://github.com/deca-hue/photo-auto-loader)
+[🔗 Live Demo](https://auto-photo-loader.vercel.app/) &nbsp; | &nbsp; [📂 View Source](https://github.com/deca-hue/photo-auto-loader)
 
 ---
 
